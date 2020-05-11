@@ -1,4 +1,4 @@
-# Sauce Framework
+# Salsa Verde
 
 Scoping out what a more simple Java Test Framework might look like.
 The name is provisional, but the intent is for this to be easy to use with Sauce Labs specifically.
