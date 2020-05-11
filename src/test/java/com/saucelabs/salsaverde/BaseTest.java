@@ -16,14 +16,8 @@ public class BaseTest {
 
     @Before
     public void setup() {
-//        browser = new Browser();
         browser = new Browser((RemoteWebDriver) testWatcher.getDriver());
         PageObject.setBrowser(browser);
         Executor.waitTime = 5;
     }
-
-//    @After
-//    public void tearDown() {
-//        browser.quit();
-//    }
 }
